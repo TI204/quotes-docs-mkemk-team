@@ -6,7 +6,9 @@ Solutions de l'évaluation notée 2 du groupe mkemk-team à l'aide de MkDocs.
 
 ## Membres du groupe
 - `initiateur` : Meunier Marie-Katell
+- `contributeur-2` : Kavisha Rubakanthan
 
 ## URLs des dépôts
 - `initiateur` : https://github.com/TI204/quotes-docs-mkemk-team
+- `contributeur-2` : https://github.com/kavisha-05/quotes-docs-mkemk-team.git
 
