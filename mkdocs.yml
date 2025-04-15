@@ -1,0 +1,4 @@
+site_name: Documentation Programming Quotes mkemk-team
+nav:
+  - Home: index.md
+  - Features: features.md

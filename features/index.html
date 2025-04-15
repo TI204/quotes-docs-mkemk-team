@@ -4,27 +4,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Documentation Programming Quotes mkemk-team</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Features - Documentation Programming Quotes mkemk-team</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
         <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Documentation Programming Quotes mkemk-team</a>
+                <a class="navbar-brand" href="..">Documentation Programming Quotes mkemk-team</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,16 +35,16 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">Home</a>
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="features/" class="nav-link">Features</a>
+                                <a href="./" class="nav-link active" aria-current="page">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a href="functions/" class="nav-link">Core Functions</a>
+                                <a href="../functions/" class="nav-link">Core Functions</a>
                             </li>
                             <li class="nav-item">
-                                <a href="user-interface/" class="nav-link">User Interface</a>
+                                <a href="../user-interface/" class="nav-link">User Interface</a>
                             </li>
                         </ul>
 
@@ -55,12 +55,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="features/" class="nav-link">
+                                <a rel="next" href="../functions/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -82,12 +82,22 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="2"><a href="#membres-du-groupe" class="nav-link">Membres du groupe</a>
+            <li class="nav-item" data-bs-level="2"><a href="#main-files" class="nav-link">Main files</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="2"><a href="#urls-des-depots" class="nav-link">URLs des dépôts</a>
+            <li class="nav-item" data-bs-level="2"><a href="#usage" class="nav-link">Usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#features-and-commands" class="nav-link">Features and commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#example" class="nav-link">Example</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -96,20 +106,38 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="membres-du-groupe">Membres du groupe</h2>
+<h2 id="main-files">Main files</h2>
 <ul>
-<li><code>initiateur</code> : Meunier Marie-Katell</li>
-<li><code>Contributeur-1</code> : Lin Elodie</li>
-<li><code>contributeur-2</code> : Kavisha Rubakanthan</li>
-<li><code>contributeur-3</code> : Marina Youssef</li>
+<li><code>main.py</code> : Main file of the application.</li>
+<li><code>quotes.txt</code> : File containing the quotes.</li>
+<li><code>functions.py</code> : File containing the functions used in the application.</li>
 </ul>
-<h2 id="urls-des-depots">URLs des dépôts</h2>
+<hr />
+<h2 id="usage">Usage</h2>
+<p>Clone the repository and run the following command to start the application:</p>
+<pre><code class="language-bash">$ git clone &lt;url-du-TP4/quotes&gt;
+$ cd quotes
+$ python main.py
+</code></pre>
+<hr />
+<h2 id="features-and-commands">Features and commands</h2>
 <ul>
-<li><code>initiateur</code> : https://github.com/TI204/quotes-docs-mkemk-team</li>
-<li><code>contributeur-1</code> : https://github.com/Elod03/quotes-docs-mkemk-team.git</li>
-<li><code>contributeur-2</code> : https://github.com/kavisha-05/quotes-docs-mkemk-team.git</li>
-<li><code>contributeur-3</code> : https://github.com/mariinaay/quotes-docs-mkemk-team.git</li>
-</ul></div>
+<li><code>random</code>  : Get a random programming quote  </li>
+<li><code>display</code> : Display multiple quotes  </li>
+<li><code>add</code>     : Add a new quote to your collection  </li>
+<li><code>exit</code>    : Exit anytime</li>
+</ul>
+<hr />
+<h2 id="example">Example</h2>
+<pre><code class="language-bash">$ python main.py
+==== Programming Quotes ====
+random : Random quote
+display : Display quotes
+add : Add a new quote
+exit : Exit the program
+&gt;&gt; random
+Why do programmers prefer dark chocolate? Because it's byte-sized!
+</code></pre></div>
             </div>
         </div>
 
@@ -117,13 +145,13 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -188,8 +216,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.6.1
-Build Date UTC : 2025-04-15 10:35:37.826603+00:00
--->
