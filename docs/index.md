@@ -2,6 +2,11 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+## Contributeur 1
+
+**Nom et Prénom** : Elodie Lin
+**Lien vers mon fork** : [https://github.com/Elod03/quotes-docs-mkemk-team](https://github.com/Elod03/quotes-docs-mkemk-team)
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.

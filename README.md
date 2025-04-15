@@ -6,7 +6,11 @@ Solutions de l'évaluation notée 2 du groupe mkemk-team à l'aide de MkDocs.
 
 ## Membres du groupe
 - `initiateur` : Meunier Marie-Katell
+- `Contributeur-1` : Lin Elodie
+ 
 
 ## URLs des dépôts
 - `initiateur` : https://github.com/TI204/quotes-docs-mkemk-team
+- `Contributeur-1` : https://github.com/Elod03/quotes-docs-mkemk-team.git
+
 
