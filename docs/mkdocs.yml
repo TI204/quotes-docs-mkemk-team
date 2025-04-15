@@ -1,4 +1,13 @@
-site_name: Documentation Programming Quotes mkemk-team
 nav:
   - Home: index.md
-  - Features: features.md
+  - User's Guide:
+      - Features: features/features.md
+      - Core Functions: features/functions.md
+      - User Interface: features/user-interface.md
+  - Logs:
+      - Initiateur: logs/log-initiateur.md
+      - Contributeur 1: logs/log-contributeur-1.md
+      - Contributeur 2: logs/log-contributeur-2.md
+      - Contributeur 3: logs/log-contributeur-3.md
+
+theme: readthedocs
