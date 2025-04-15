@@ -6,6 +6,7 @@
 - `initiateur` : Meunier Marie-Katell
 - `Contributeur-1` : Lin Elodie
 - `contributeur-2` : Kavisha Rubakanthan
+-`contributeur-3`: Marina Youssef
 
 ## URLs des dépôts
 - `initiateur` : https://github.com/TI204/quotes-docs-mkemk-team
